@@ -48,7 +48,7 @@ Try sending this JSON format bellow to: POST http://localhost:3333/tasks
 }
 ```
 
-### PUT(/tasks/:id)
+### PUT (/tasks/:id)
 
 Update some task by informing its ID through the route param.
 
@@ -61,15 +61,15 @@ Try altering the description of a given task: PUT http://localhost:3333/tasks/2f
 }
 ```
 
-### DELETE(/tasks/:id)
+### DELETE (/tasks/:id)
 
 Delete a task with an ID informed on route param. For example: DELETE http://localhost:3333/tasks/2f157520-4eb0-4f5a-839b-3c4e6953589f.
 
-### PATCH(/tasks/:id/complete)
+### PATCH (/tasks/:id/complete)
 
 Mark as complete a task sending its ID through route param, like: PATCH http://localhost:3333/tasks/2f157520-4eb0-4f5a-839b-3c4e6953589f/complete.
 
-### PUT(/tasks/import)
+### POST (/tasks/import)
 
 Convert text in CSV file into a JavaScript Object and send the data to the database through the API route. Try sending a request like: POST http://localhost:3333/tasks/import.
 
