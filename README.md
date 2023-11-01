@@ -73,6 +73,17 @@ Mark as complete a task sending its ID through route param, like: PATCH http://l
 
 Convert text in CSV file into a JavaScript Object and send the data to the database through the API route. Try sending a request like: POST http://localhost:3333/tasks/import.
 
+<span>In the root project, there's a file named "tasks.csv" with this text:</span>
+
+```csv
+title,description
+Task 01,Descrição da Task 01
+Task 02,Descrição da Task 02
+Task 03,Descrição da Task 03
+Task 04,Descrição da Task 04
+Task 05,Descrição da Task 05
+```
+
 ## Requirements to run the project
 
 <p>Before you run the project, check if you have [Node.js](https://nodejs.org/en/) installed on your machine, as well [Git](https://git-scm.com) to clone this repository.</p>
