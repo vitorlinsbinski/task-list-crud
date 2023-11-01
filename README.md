@@ -84,6 +84,8 @@ Task 04,Descrição da Task 04
 Task 05,Descrição da Task 05
 ```
 
+<span>So, it will be parsed by "csv-parse" library and send it through this route.</span>
+
 ## Requirements to run the project
 
 <p>Before you run the project, check if you have [Node.js](https://nodejs.org/en/) installed on your machine, as well [Git](https://git-scm.com) to clone this repository.</p>
